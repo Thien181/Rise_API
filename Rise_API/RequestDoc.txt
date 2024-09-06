@@ -1,0 +1,26 @@
+#reqMeetings = "meetings/AP110921/races"
+#races = requests.get(url+reqMeetings,headers=header)
+#raceJson = races.json()
+#print(raceJson)
+#"races/APC11092112" this get info about this race
+#"/races/{raceCode}/fields":
+#reqRunners = "races/APC11092112/fields"
+#runners = requests.get(url+reqRunners,headers=header)
+#runnerJson = runners.json()
+#print(runnerJson)
+
+#"/races/{raceCode}/raceAndFields" Gets the race information and fields for a race in a single call
+#reqRunners = "races/APC11092112/raceAndFields"
+#runners = requests.get(url+reqRunners,headers=header)
+#runnerJson = runners.json()
+#print(runnerJson)
+# /meetings: Search meetings
+# "/meetings/{meetingCode}/races":
+# "/races/{raceCode}":
+# "/races/{raceCode}/fields":
+# "/races/{raceCode}/raceAndFields" Gets the race information and fields for a race in a single call
+# "/horses/{horseId}/performances": Get historical racing performances for a horse
+# "/horses/{horseId}/stats": Get information about a horse
+# "/horses/{horseId}/complete": Returns details and performance history in a single call for the horse
+#        with the given horseId
+# "/races/{raceCode}/raceAndForm": Gets the race information and form for a race in a single call

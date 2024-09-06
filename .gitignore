@@ -13,6 +13,8 @@
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
+Rise_API/Sent/
+Rise_API/packages/
 # Mono auto generated files
 mono_crash.*
 
